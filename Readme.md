@@ -4,3 +4,5 @@ On a utilisé une injection en javascript pour faire apparaître une pop-up aler
 
 tien:
 https://apcpedagogie.com/les-injections-html-xss/
+
+<b style="text-decoration:blink ;"> Si ce texte est en gras et clignote, c’est que le site est vulnérable </b>
